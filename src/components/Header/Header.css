@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --logo-color: #fff;
+  --logo-font-weight: 700;
+  --menu-items-color: #fff;
+  --menu-item-font-weight: 400;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-family: ruda;
+
+  /* border: 1px solid red */
+}
+.header-right {
+  display: flex;
+  color: var(--menu-items-color);
+  width: 650px;
+  justify-content: space-between;
+  align-items: center;
+  /* font-weight: var(--menu-item-font-weight); */
+  font-weight: 400;
+  font-family: "open sans";
+}
+.header-right span {
+  margin: 0 10px;
+}
+
+.header-left p {
+  color: var(--logo-color);
+  font-weight: var(--logo-font-weight);
+  margin-left: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.gradiented-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(
+    138deg,
+    rgba(201, 34, 227, 0.4) 0%,
+    rgba(153, 30, 234, 0.4) 52.29%,
+    rgba(73, 23, 246, 0.4) 100%
+  );
+  border: none;
+  color: var(--logo-color);
+  font-size: medium;
+  cursor: pointer;
+}
