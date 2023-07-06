@@ -32,6 +32,11 @@ header {
 }
 .header-right span {
   margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header-right span:hover {
+  color: rgb(141, 139, 139);
 }
 
 .header-left p {

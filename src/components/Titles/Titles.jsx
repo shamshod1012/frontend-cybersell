@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillPlayFill } from "react-icons/bs";
+
 import "./Titles.css";
 
 export const Titles = () => {
@@ -39,7 +40,28 @@ export const Titles = () => {
           </p>
         </div>
       </div>
-      <div className="titles titles-right"></div>
+      <div className="titles titles-right">
+        <img
+          src={require("../../assets/img/Rectangle 111.png")}
+          alt="gold skull"
+          className="titles_gold-skull"
+        />
+        <img
+          src={require("../../assets/img/Rectangle 112.png")}
+          alt="bones"
+          className="titles_bones"
+        />
+        <img
+          src={require("../../assets/img/image 113.png")}
+          alt="cat"
+          className="titles_cat"
+        />
+        <img
+          src={require("../../assets/img/Rectangle 114.png")}
+          alt="head"
+          className="titles_head"
+        />
+      </div>
     </main>
   );
 };
