@@ -50,7 +50,7 @@
   align-items: center;
   font-family: "Open sans";
 }
-.title-buttons p {
+.title-buttons div {
   display: flex;
 
   align-items: center;
@@ -81,7 +81,7 @@
   align-items: center;
   margin-top: 30px;
 }
-.titles-numbers-container p {
+.titles-numbers-container div {
   font-family: "open sans";
   font-size: var(--numbers-containerfsize);
 }
@@ -96,23 +96,23 @@
   width: 350px;
   top: 150px;
   left: 10px;
-  animation: animation_leftright infinite 3s;
+  animation: animation_leftright infinite 2.5s;
 }
 
 .titles_cat {
   top: -30px;
-  animation: animation_topbottom infinite ease-in-out 2s;
+  animation: animation_topbottom infinite 3.3s;
 }
 
 .titles_bones {
   right: 0;
   width: 200px;
-  animation: animation_leftright infinite ease-in-out 2s;
+  animation: animation_leftright infinite ease-in-out 1.4s;
 }
 .titles_head {
   bottom: 0;
   right: 0;
-  animation: animation_topbottom infinite 3s;
+  animation: animation_topbottom infinite ease-in-out 1.5s;
 }
 @keyframes animation_leftright {
   0% {

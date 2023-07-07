@@ -1,0 +1,48 @@
+:root {
+  --TIfont-color: #fff;
+  --title-fontf: ruda;
+  --title-fontw: 600;
+  --title-fonts: 32px;
+  --small-titleff: "open sans";
+}
+
+.top-images {
+  margin-top: 100px;
+  color: var(--TIfont-color);
+}
+.top-images h2 {
+  font-family: var(--title-fontf);
+  font-weight: var(--title-fontw);
+  font-size: var(--title-fonts);
+}
+.top-images_small-title {
+  font-family: var(--small-titleff);
+  width: 400px;
+}
+.topimages_button {
+  font-family: var(--small-titleff);
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(rgba(234, 0, 173, 1), rgba(138, 64, 255, 1));
+  border-radius: 5px;
+  font-size: medium;
+  color: var(--TIfont-color);
+  border: none;
+  cursor: pointer;
+}
+.top-images_main {
+  
+  display: flex;
+  height: 300px;
+  align-items: center;
+  font-family: var(--small-titleff);
+  overflow-x: scroll;
+}
+.top-images_main::-webkit-scrollbar {
+  display: none;
+}
+.carousel {
+  display: flex;
+  column-gap: 3rem;
+  cursor: grab;
+}

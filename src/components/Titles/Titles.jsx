@@ -17,27 +17,27 @@ export const Titles = () => {
         </p>
         <div className="title-buttons">
           <button className="gradiented-button">Explore</button>
-          <p>
-            <p className="watch-circle">
+          <div>
+            <div className="watch-circle">
               <BsFillPlayFill />
-            </p>
+            </div>
             Watch Video
-          </p>
+          </div>
         </div>
 
         <div className="titles-numbers-container">
-          <p>
+          <div>
             <h3>80K+</h3>
             Activate user
-          </p>
-          <p>
+          </div>
+          <div>
             <h3>27K+</h3>
             Artworks
-          </p>
-          <p>
+          </div>
+          <div>
             <h3>3.5K+</h3>
             Artists
-          </p>
+          </div>
         </div>
       </div>
       <div className="titles titles-right">
