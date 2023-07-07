@@ -5,3 +5,4 @@ export * from "./TopImages";
 export * from "./SingleImage";
 export * from "./CreateSell";
 export * from "./TopGals";
+export * from "./TopSellers";

@@ -6,6 +6,7 @@ import {
   Titles,
   TopImages,
   TopGals,
+  TopSellers,
 } from "../../components/";
 export const Home = () => {
   return (
@@ -16,6 +17,7 @@ export const Home = () => {
         <TopImages />
         <CreateSell />
         <TopGals />
+        <TopSellers />
       </Wrapper>
     </div>
   );
