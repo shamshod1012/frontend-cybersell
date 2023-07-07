@@ -1,0 +1,54 @@
+:root {
+  --createsell-t-ff: Ruda;
+  --create-sell-t-c: #fff;
+  --main-font-color: #fff;
+  --main-font-f: "open sans";
+}
+
+.create-sell {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.big-title-all {
+  font-family: var(--createsell-t-ff);
+  color: var(--create-sell-t-c);
+}
+.create-sell-main {
+  display: flex;
+  margin-top: 4rem;
+  height: 270px;
+  align-items: center;
+  background-color: rgb(43, 29, 71);
+  color: var(--main-font-color);
+  font-family: var(--main-font-f);
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.create-sell_single-item {
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.create-sell_single-item:hover {
+  border: 1px solid rgba(197, 34, 228, 1);
+  background: #351c49;
+  transform: translateY(-20%);
+  box-shadow: 0 20px 30px #381f4e;
+}
+.create-sell_single-item p {
+  margin: 10px 0;
+}
+.create-sell_single-item span {
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+}

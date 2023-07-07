@@ -1,0 +1,15 @@
+.top-galleries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  row-gap: 2rem;
+}
+.top-galleries-main {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  justify-content: space-between;
+}

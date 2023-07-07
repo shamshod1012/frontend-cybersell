@@ -1,5 +1,12 @@
 import React from "react";
-import { Header, Wrapper, Titles, TopImages } from "../../components/";
+import {
+  Header,
+  Wrapper,
+  CreateSell,
+  Titles,
+  TopImages,
+  TopGals,
+} from "../../components/";
 export const Home = () => {
   return (
     <div className="home">
@@ -7,6 +14,8 @@ export const Home = () => {
         <Header />
         <Titles />
         <TopImages />
+        <CreateSell />
+        <TopGals />
       </Wrapper>
     </div>
   );
