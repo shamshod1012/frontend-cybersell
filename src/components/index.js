@@ -6,3 +6,5 @@ export * from "./SingleImage";
 export * from "./CreateSell";
 export * from "./TopGals";
 export * from "./TopSellers";
+export * from "./Blogs";
+export * from "./Footer";
